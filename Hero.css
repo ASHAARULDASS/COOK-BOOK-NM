@@ -1,0 +1,90 @@
+.hero-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.hero-text{
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 25vh;
+    padding-left: 4vw;
+}
+
+.hero-text .hero-line{
+    height: 3px;
+    width: 10vw;
+    background-color: #6b1f2a;
+
+}
+
+.hero-text h1{
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2b2b2b;
+}
+
+.hero-text p{
+    margin: 0;
+    color: #5c5c5c;
+}
+
+.hero-text button{
+    width: 15vw;
+    height: 8vh;
+    background: linear-gradient(90deg,  #6b1f2a 0%, #f6f1f1 100%);
+    background-size: 200% 120%;
+    background-position: 100% 0;
+    transition: background-position 0.5s ease-in-out;
+    transition: color 0.8s ease;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: 1.5px solid  #a28383;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 3vh;
+    color: #6b1f2a;
+}
+
+.hero-text button:hover{
+    background-position: 0 0;
+    color:#ffffff;
+    transition: color 0.8s ease;
+    transition: background-position 0.5s ease-in-out;
+}
+
+.hero-images{
+
+    display: flex;
+    width: 100%;
+    gap: 5vh;
+    justify-content: center;
+}
+
+.hero-images .span1{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding-top: 5vh;
+}
+
+.hero-images .span2{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding-top: 15vh;
+}
+
+.hero-images img{
+    width: 20vw;
+    border-radius: 0.7rem;
+    box-shadow: rgba(107, 31, 42, 0.15)0px 2px 8px 0px;
+}
+
+.hero-images img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
